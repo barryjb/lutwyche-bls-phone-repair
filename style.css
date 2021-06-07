@@ -15,21 +15,82 @@ body{
 }
 
 header{
-    background-color: #FAFAFA;
+background-color: #dddddd;
+}
+
+#shop-header{
+    text-align: center;
+    position: relative;
+    padding: 40px;
+    
+}
+
+#shop-logo{
+    height: 100%;
+    width: 25%;
+}
+
+#shop-header h1{
+    position: absolute;
+    font-size: 3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container{
+    text-align: center;
+}
+
+.showcase{
+    text-align: center;
+    margin: 80px;
 }
 
 nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     
     
 }
 
 nav ul li{
     list-style: none;
-    width: calc(100%/5);
+    font-size: 1em;
+
+    
     
     
 }
+
+#shop-img{
+    opacity: 0.2;
+    height: 100%;
+}
+
+#hours-out{
+    text-align: center;
+
+}
+
+.hours-in{
+    background-color: #dddddd;
+    height: 10%;
+    width: 25%;
+    margin-top: 30px;
+    padding: 30px;
+    line-height: 2.2;
+    display: inline-block;
+
+}
+
+#shop-img{
+    height: 100%;
+    width: 40%;
+    
+}
+
+
 
